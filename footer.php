@@ -21,16 +21,18 @@
             <img src="images/Website-Footer-Makati-UMak-RISE-1.png" alt="" id="footer-pic">
         </div>
         <div class="quick-links">
+           <div class="inner-quick-links">
             <header>QUICK LINKS</header>
-            <br>
-            <li>Directory</li>
-            <li>Student Platform</li>
-            <li>Offices and Centers</li>
-            <li>Registrar's Office</li>
-            <li>College</li>
-            <li>Admissions</li>
-            <li>Newsrooms</li>
-            <li>Program Offerings</li>
+                <br>
+                <li>Directory</li>
+                <li>Student Platform</li>
+                <li>Offices and Centers</li>
+                <li>Registrar's Office</li>
+                <li>College</li>
+                <li>Admissions</li>
+                <li>Newsrooms</li>
+                <li>Program Offerings</li>
+            </div>
         </div>
     </footer>
 </html>

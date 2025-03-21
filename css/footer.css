@@ -43,3 +43,22 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+.quick-links{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.inner-quick-links header{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Metropolis', serif;
+}
+.inner-quick-links li{
+    font-family: 'Metropolis', serif;
+    font-size: 19px;
+    color: #ffffff;
+    list-style: none;
+    line-height: 1.8;
+}
