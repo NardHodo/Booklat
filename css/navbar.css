@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Metropolis-Medium';
+    src: url('../fonts/Metropolis/Metropolis-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Marcellus';
+    src: url('../fonts/Marcellus/Marcellus-Regular.ttf');
+}
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: block;
+    
+}
+
+section{
+    height: 443px;
+    width: 100%;
+}
+
+.navbar-container{
+    background-color: #111C4E;
+    position:sticky;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navbar-inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-container{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    vertical-align: center;
+}
+
+#umak-icon{
+    height: 50px;
+    width: 50px
+}
+
+.university-name{
+
+    color: white;
+    width: 400px;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Marcellus', 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+
+
+.main-navbar{
+    width: calc(100% - 260px);
+    height: 20px;
+    margin: 0;
+    right: 0;
+    -ms-flex-align: end;
+}
+
+.main-navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Metropolis-Medium', 'Times New Roman', Times, serif;
+}
+
+.main-navbar a{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.main-navbar li{
+    float: right;
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+
+
+

@@ -1,0 +1,175 @@
+body{
+    display: block;
+    overflow-x: hidden;
+}
+
+.banner-one{
+    background-image: url("../images/SIR-KYLE-1.png");
+    height: 443px;
+    width: 100%;
+    background-repeat: no-repeat;
+    border: 3px solid gray;
+}
+
+.banner-one img{
+    width: 100vw;
+    height: 100%;
+}
+
+#landing-page-pic{
+    width: 390px;
+    height: 300px;
+    border: 1px solid grey;
+
+    
+}
+
+.outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 451px;
+}
+
+.header-container{
+    border: 10px solid white;
+    color: white;
+    font-size: 65px;
+    padding: 30px 90px 30px 90px;
+}
+
+.banner-two{
+    height: 443px;
+    width: 100%;
+    display: block;
+    padding: 20px;
+}
+
+.opac-info{
+
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    white-space: normal;
+    line-height: 1.5;
+    color: #111C4E;
+    padding: 20px 120px 10px 120px;
+    font-weight: 500;
+    height: 50%;
+    font-family: 'Metropolis', 'Times New Roman', Times, serif;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    height: 50%;
+}
+
+
+
+button{
+    background-color: #111C4E;
+    color: white;
+    font-size: 30px;
+    border-radius:5px;
+    height: 45px;
+    bottom: 10px;
+    width: 550px;
+    font-family: 'Marcellus', 'Times New Roman', Times, serif;
+
+}
+
+.banner-three{
+    background-image: url("../images/SIR-KYLE-1.png");
+    background-repeat: no-repeat;
+    height: 443px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.image-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 231, 223, 0.619);
+}
+
+.about-us{
+    width: 45%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 75%; 
+}
+
+.about-us-header{
+    display: flex;
+    align-items: center;
+    font-family: 'Metropolis-Medium';
+    font-weight: 1000;
+    font-size: 25px;
+    color: #111C4E;
+}
+
+.about-us-desc{
+    font-size: 20px;
+    color: #111C4E;
+    font-family: 'Metropolis-Medium', sans-serif;
+    white-space: normal;
+    line-height: 1.8;
+}
+
+.banner-four{
+    background-image: url('../images/SHELF-3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 443px;
+}
+
+.banner-four-overlay{
+    background-color: #ffffff97;
+    box-sizing: border-box;
+    padding: 20px 50px 20px 50px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 40px;
+}
+
+.banner-four-photo{
+    display: flex;
+    align-items: center;
+}
+
+.offers{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+
+.offers header{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Metropolis-Medium', sans-serif;
+    font-weight: bolder;
+}
+
+.offer-list li{
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: 'Metropolis-Medium', sans-serif;
+    font-weight: 500;
+    color: #111C4E;
+}
+
+.offer-list strong{
+    font-weight: bolder;
+    font-size: 22px;
+}
