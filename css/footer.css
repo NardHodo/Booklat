@@ -1,3 +1,4 @@
+
 footer{
     height: 443px;
     box-sizing: border-box;
@@ -17,14 +18,16 @@ footer{
 .learn-more{
     display: grid;
     grid-template-rows: 20% 40% 20%;
-    gap: 50px;
+    gap: 10px;
     padding: 50px 10px 50px 10px;
 }
 
 .learn-more header{
     font-size: 25px;
     color: #ffffff;
-    text-align: center;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 0 100px 0 100px;
 }
 
 .learn-more-info{
@@ -35,7 +38,7 @@ footer{
     text-align: justify;
     display: flex;
     justify-content: center;
-    padding: 0 50px 0 50px;
+    padding: 0 100px 0 100px;
 }
 
 .rise-and-shine{
@@ -48,6 +51,13 @@ footer{
     display: flex;
     height: 100%;
     align-items: center;
+}
+
+.visit{
+    text-align: start;
+    color: white;
+    font-size: 15px;
+    padding: 0 100px 0 100px;
 }
 
 .inner-quick-links header{
